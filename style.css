@@ -1,0 +1,455 @@
+/*----------------------------------------ALL---------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	font-family: 'Poppins';
+}
+body{
+	background-color: #e7e5e4;
+	overflow-x: hidden;
+
+}
+/*----------------------------------------HEADER---------------------------------------*/
+header{
+	background-image: url(images/min.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+
+/*-----------------------nav-----------------------*/
+ .nav-ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+nav{
+	position: absolute;
+	height: 60px;
+	width: 100%;
+	overflow: hidden;
+	transition: width 0.2s linear;
+	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+	background-color: #a8a29e;
+}
+/*---------list & links in header----------------*/
+.nav-ul{
+	margin-top: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+.nav-li{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-li:hover{
+	background-color: #aeaeae;
+}
+i{
+	padding: 15px;
+}
+
+nav:hover{
+	height: 100px;
+	transition: all 0.5s ease;
+}
+
+a{
+	color: #404040;
+}
+a:hover{
+	color: #737373;
+}
+/*-----------------------h1-----------------------*/
+.container-for-h1{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 20rem;
+	margin-left: 12rem;
+	font-size: 25px;
+	color: #626262;
+}
+
+/*--------------------------------SLIDES-----------------------------*/
+ 
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 0.4em;
+  position: absolute;
+  bottom: 0.6em;
+  width: 100%;
+  text-align: center;
+}
+
+/*----------------------------------------BODY---------------------------------------*/
+
+.container-main{
+	display: flex;
+	flex-direction: column;
+	color: #626262;
+	margin: 2rem;
+	width: 60vw;
+}
+.container-item-ul{
+	padding: 1.2rem;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100vw;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+	text-align: center;
+}
+.container:hover {
+	background-color: #fbfbfb;
+	transition: 1.2s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	padding: 0.3rem;
+}
+ h3, h2{
+	color: #383838;
+}
+
+.cont-ul{
+	text-align: center;
+	margin: 0.5rem;
+	text-decoration: none;
+	list-style: none;
+	color: #626262;
+	background-color: #c8c8c8;
+	padding: 2rem;
+}
+
+.container-item-h2{
+	margin: 3rem;
+	
+	color: #383838;
+}
+/*----------------------CHART-----------------*/
+.chart-row{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    margin: 2rem;
+}
+
+.chart-container-html {
+	background-color: #737373;
+	width: 40rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+.chart-container-html:hover {
+	background-color: #A5FFC9;
+	transition: background-color 1.2s linear;
+	margin: 1rem;
+	border: 0;
+}
+
+.chart-container-css {
+	background-color: #737373;
+	width: 40rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+.chart-container-css:hover {
+	background-color: #A5FFC9;
+	transition: background-color 1.2s linear;
+	margin: 1rem;
+	border: 0;
+}
+
+.chart-container-js {
+	background-color: #737373;
+	width: 40rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+.chart-container-js:hover {
+	background-color: #A5FFC9;
+	transition: background-color 1.2s linear;
+	width: 20rem;
+	margin: 1rem;
+	border: 0;
+}
+.chart-container-c {
+	background-color: #737373;
+	width: 40rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+.chart-container-c:hover {
+	width: 30rem;
+	background-color: #A5FFC9;
+	transition: background-color 1.2s linear;
+	margin: 1rem;
+	border: 0;
+}
+.chart-container-sql {
+	background-color: #737373;
+	width: 40rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+.chart-container-sql:hover {
+	width: 20rem;
+	background-color: #A5FFC9;
+	transition: background-color 1.2s linear;
+	margin: 1rem;
+	border: 0;
+}
+/*-------------------------------------FOOTER------------------------------------*/
+footer{
+	margin-top: 2rem;
+	background-color:  #a8a29e;
+	display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.column{
+margin-top: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.column p{
+	margin-top: 1.8rem;
+	text-align: center;
+}
+.column img{
+	width: 180px;
+	margin-top: -2.6rem;
+}
+/*-------------------------------------RESPONSIVE------------------------------------*/
+
+@media (max-width: 470px){
+	.container-for-h1{
+		margin-left: 2rem;
+		font-size: 1em;
+	}
+
+	li{
+		padding-left: 5px;
+		padding-right: 5px;	
+	}
+
+	p, .cont-ul{
+		font-size: 1.2rem;
+	}
+	.chart-row h2{
+		font-size: 1.5em;
+		margin: auto;
+	}
+	.chart-container-css{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+	.chart-container-html{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+	.chart-container-js{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+	.chart-container-c{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+	.chart-container-sql{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+
+	.chart-container-css:hover{
+	background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+	.chart-container-html:hover{
+	background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 300px;
+	}
+	.chart-container-js:hover{
+		background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 150px;
+	}
+	.chart-container-c:hover{
+		background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+	.chart-container-sql:hover{
+		background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 150px;
+	}
+
+	article{
+		font-size: 1.2em;
+	}
+	.text {
+  color: #f2f2f2;
+  background-color: #d0cdcb;
+  font-size: 1em;
+  width: 100%;    
+  position: absolute;
+  bottom: -4.5em;
+}
+footer{
+	margin-top: 5em;
+	}
+}
+
+@media (max-width: 300px){
+		.chart-container-css{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+.chart-container-html{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+	.chart-container-js{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+	.chart-container-c{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+	.chart-container-sql{
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+
+	.chart-container-css:hover{
+	background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+	.chart-container-html:hover{
+	background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 200px;
+	}
+	.chart-container-js:hover{
+		background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 100px;
+	}
+	.chart-container-c:hover{
+		background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 140px;
+	}
+	.chart-container-sql:hover{
+		background-color: #A5FFC9;
+	margin-right: 30%;
+	margin-left: 20%;
+		width: 100px;
+	}
+
+}
+@media (max-width: 810px){
+
+	.row{
+		display: flex;
+	    flex-direction: row;
+	    align-content: flex-start;
+	    justify-content: space-evenly;
+	    flex-wrap: wrap;
+	    align-items: flex-start;
+}
+
+
+	.nav-ul{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+	}
+
+	
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
