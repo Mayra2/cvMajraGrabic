@@ -220,7 +220,7 @@ a:hover{
 .chart-container-js:hover {
 	background-color: #A5FFC9;
 	transition: background-color 1.2s linear;
-	width: 20rem;
+	width: 34rem;
 	margin: 1rem;
 	border: 0;
 }
@@ -231,7 +231,7 @@ a:hover{
 	padding: 1rem;
 }
 .chart-container-c:hover {
-	width: 30rem;
+	width: 35rem;
 	background-color: #A5FFC9;
 	transition: background-color 1.2s linear;
 	margin: 1rem;
@@ -244,7 +244,7 @@ a:hover{
 	padding: 1rem;
 }
 .chart-container-sql:hover {
-	width: 20rem;
+	width: 38rem;
 	background-color: #A5FFC9;
 	transition: background-color 1.2s linear;
 	margin: 1rem;
@@ -452,4 +452,5 @@ footer{
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
 }
